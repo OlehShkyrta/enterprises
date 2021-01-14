@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?hzpxue');
+  src:  url('../fonts/icomoon.eot?hzpxue#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?hzpxue') format('truetype'),
+    url('../fonts/icomoon.woff?hzpxue') format('woff'),
+    url('../fonts/icomoon.svg?hzpxue#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="project__icon--"], [class*=" project__icon--"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.project__icon--envelope-o:before {
+  content: "\f003";
+}
+.project__icon--check:before {
+  content: "\f00c";
+}
+.project__icon--map-marker:before {
+  content: "\f041";
+}
+.project__icon--phone:before {
+  content: "\f095";
+}
+.project__icon--briefcase:before {
+  content: "\f0b1";
+}
+.project__icon--bars:before {
+  content: "\f0c9";
+}
+.project__icon--navicon:before {
+  content: "\f0c9";
+}
+.project__icon--reorder:before {
+  content: "\f0c9";
+}
+.project__icon--angle-left:before {
+  content: "\f104";
+}
+.project__icon--angle-right:before {
+  content: "\f105";
+}
+.project__icon--quote-right:before {
+  content: "\f10e";
+}
